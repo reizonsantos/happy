@@ -11,10 +11,10 @@
 
 @keyframes right {
     from {
-        transform: translateX(-100);
+        transform: translateX(-100px);
     }
     to {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
 }
 
@@ -26,5 +26,6 @@
 
 .animate-right {
     animation-name: right;
-    animation-duration: 300ms
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
 }
